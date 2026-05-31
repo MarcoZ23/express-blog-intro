@@ -43,3 +43,8 @@ const posts = [
         tags: ["dolce", "dessert"]
     }
 ]
+
+app.get('/bacheca', (req, res) => {
+
+    res.json(posts)
+})
